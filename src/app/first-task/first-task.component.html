@@ -1,0 +1,58 @@
+<!-- <div class="crud">
+
+    <h1 style="text-align: center;">Assessment</h1>
+
+    <br>
+    <div style="margin-left: 40%;">
+        <div class="col-md-4">
+            <form [formGroup]="tableform">
+                <div>
+                    <label for="FirstName" class="form-label">FirstName :</label>
+                    <input type="text" class="form-control" id="FirstName" placeholder="Enter Name"
+                        formControlName="name" autocomplete="off">
+                    <br>
+                </div>
+                <div>
+                    <label for="mob" class="form-label">Mobile Number :</label>
+                    <input type="text" class="form-control" id="number" placeholder="Enter number" formControlName="mob"
+                        autocomplete="off">
+                    <br>
+                </div>
+                <div>
+                    <label for="Email" class="form-label">Email :</label>
+                    <input type="Email" class="form-control" id="Email" placeholder="Email" formControlName="email"
+                        autocomplete="off">
+                    <br>
+                    <button id="btn" type="submit" class="btn btn-primary" (click)="addinput()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Number</th>
+            <th scope="col">Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let obj of textbox; let i=index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{obj.name}}</td>
+            <td>{{obj.mob}}</td>
+            <td>{{obj.Email}}</td>
+            <td>
+
+                <button style="margin-right: 10px;" id="edit" class="btn btn-sm-2 btn-warning"
+                    title="Edit">Edit</button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    (click)="del(i)">
+                    <i class="fa-solid fa-trash"></i>delete
+                </button>
+            </td>
+    </tbody>
+</table> -->
