@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LeftComponent } from './left/left.component';
 import { RightComponent } from './right/right.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
-  { path: '', component: LeftComponent },
-  { path: 'left', component: LeftComponent },
-  { path: 'contact', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule) }
+  { path: '', component: LoginComponent },
+   { path: 'right', component: RightComponent },
 ]
 
 @NgModule({

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Form, FormControl, FormGroup, Validators, FormControlName } from '@angular/forms';
+import {  FormControl, FormGroup, Validators,  } from '@angular/forms';
 
 
 @Component({
@@ -11,29 +11,29 @@ import { Form, FormControl, FormGroup, Validators, FormControlName } from '@angu
 
 export class FirstTaskComponent {
 
-//   textbox: any[] = []
+  textbox: any[] = []
 
-//   tableform = new FormGroup({
+  tableform = new FormGroup({
 
-//     name: new FormControl('', [Validators.required]),
-//     mob: new FormControl('', [Validators.required]),
-//     email: new FormControl('', [Validators.required]),
-//   })
+    name: new FormControl('', [Validators.required]),
+    mob: new FormControl('', [Validators.required]),
+    email: new FormControl('', [Validators.required]),
+  })
 
-//   addinput() {
-//     var fname = this.tableform.get('name')?.value;
-//     var mobile = this.tableform.get('mob')?.value;
-//     var email = this.tableform.get('email')?.value;
+  addinput() {
+    var fname = this.tableform.get('name')?.value;
+    var mobile = this.tableform.get('mob')?.value;
+    var email = this.tableform.get('email')?.value;
 
-//     this.tableform.reset()
-//     this.textbox.push({
-//       name: fname,
-//       mob:mobile,
-//       Email:email
-//     })
-//   }
+    this.tableform.reset()
+    this.textbox.push({
+      name: fname,
+      mob:mobile,
+      Email:email
+    })
+  }
 
-//   del(fname: number){
-//     this.textbox.splice(fname,1)
-// }
+  del(fname: number){
+    this.textbox.splice(fname,1)
+}
 }

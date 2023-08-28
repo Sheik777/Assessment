@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "firstname": "navin",
+      "lastname": "pringle",
+      "email": "sheik@gmai",
+      "mobilenumber": 987654322,
+      "gender": "Male",
+      "education": "Graduate",
+      "id": 1
+    },
+    {
+      "firstname": "navin",
+      "lastname": "pringle",
+      "email": "sheik@gmai",
+      "mobilenumber": 987654322,
+      "gender": "Male",
+      "education": "Graduate",
+      "id": 2
+    },
+    {
+      "firstname": "abdul",
+      "lastname": "gokul",
+      "email": "abdul@gmail",
+      "mobilenumber": 987456321,
+      "gender": "Male",
+      "education": "Graduate",
+      "id": 3
+    }
+    
+ 
+  ]
+}

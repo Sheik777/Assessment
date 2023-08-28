@@ -1,8 +1,23 @@
-.left{
-    margin-right: 10%;
-    font-size: large;
-    text-align: center;
-    justify-content:center ;
-    margin-top: 20%;    
-    font-size:x-large;
+.row{
+    display: flex;
+    gap: 10px;
+  
+}
+.input{
+ padding: 10px;
+    width: 48%;
+}
+.input2{
+    width: 48%;
+}
+.dropdown{
+    width: 48%;
+}
+.action{
+padding: 0px 25px 20px;
+
+}
+button{
+    width: 45%;
+    margin-left: 10px;
 }

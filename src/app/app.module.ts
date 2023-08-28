@@ -10,6 +10,7 @@ import { RightComponent } from './right/right.component';
 import { AddService } from './services/add.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -19,6 +20,16 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTabsModule} from '@angular/material/tabs';
 import {NgIf} from '@angular/common';
+import { ObservableComponent } from './observable/observable.component';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatDialogModule  } from'@angular/material/dialog';
+import {MatRadioModule} from '@angular/material/radio';
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { MatPaginatorModule} from '@angular/material/paginator';
+import { MatSortModule} from '@angular/material/sort';
+import { MatTableModule } from '@angular/material/table';
 
 
 
@@ -28,8 +39,10 @@ import {NgIf} from '@angular/common';
     FirstTaskComponent,
     LeftComponent,
     RightComponent,
+    ObservableComponent,
+    LoginComponent,
+    RegisterComponent,
     
-  
   ],
   imports: [
     BrowserModule,
@@ -37,6 +50,7 @@ import {NgIf} from '@angular/common';
     ReactiveFormsModule,
     FormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
 
     MatSlideToggleModule,
     MatButtonModule,
@@ -46,9 +60,13 @@ import {NgIf} from '@angular/common';
     MatInputModule,
     MatFormFieldModule,
     MatTabsModule,
-    NgIf
-
-
+    NgIf,
+    MatToolbarModule,
+    MatDialogModule, 
+    MatRadioModule,
+    MatSortModule,
+    MatPaginatorModule,
+    MatTableModule
 
   ],
   providers: [AddService],

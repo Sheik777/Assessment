@@ -1,0 +1,22 @@
+.container {
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 82, 82);
+    margin-top: 8%;
+    width: 27%;
+    padding: 5%;
+    height: 60%; 
+    border-radius: 5%;
+    background: linear-gradient(125deg, #901fc5, #ffff);
+
+}
+#btn{
+    margin-left: 30%;
+    padding: 15px;
+
+}
+.login{
+    text-align: center;
+    font-size:xx-large;
+    margin-bottom: 15%;
+
+}
