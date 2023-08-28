@@ -27,24 +27,22 @@
       "id": 1
     },
     {
-      "firstname": "navin",
-      "lastname": "pringle",
-      "email": "sheik@gmai",
-      "mobilenumber": 987654322,
-      "gender": "Male",
-      "education": "Graduate",
-      "id": 2
-    },
-    {
       "firstname": "abdul",
       "lastname": "gokul",
       "email": "abdul@gmail",
       "mobilenumber": 987456321,
       "gender": "Male",
       "education": "Graduate",
+      "id": 2
+    },
+    {
+      "firstname": "sheik",
+      "lastname": "jubair",
+      "email": "sheik@gmail.com",
+      "mobilenumber": 9865043109,
+      "gender": "Male",
+      "education": "Graduate",
       "id": 3
     }
-    
- 
   ]
 }
